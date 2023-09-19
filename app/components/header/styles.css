@@ -1,0 +1,9 @@
+header {
+  @apply flex justify-between pt-8 pb-6;
+  a {
+    @apply block w-2/5 md:w-80;
+    img {
+      @apply block w-full h-auto;
+    }
+  }
+}

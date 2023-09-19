@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  /* background-image: url('/images/bg-12.webp'); */
+  @apply leading-tight text-white;
+}
+
+main {
+  &.bg-01 { background-image: url('/images/bg-01.webp'); }
+  &.bg-02 { background-image: url('/images/bg-02.webp'); }
+  &.bg-03 { background-image: url('/images/bg-03.webp'); }
+  &.bg-04 { background-image: url('/images/bg-04.webp'); }
+  &.bg-05 { background-image: url('/images/bg-05.webp'); }
+  &.bg-06 { background-image: url('/images/bg-06.webp'); }
+  &.bg-07 { background-image: url('/images/bg-07.webp'); }
+  &.bg-08 { background-image: url('/images/bg-08.webp'); }
+  &.bg-09 { background-image: url('/images/bg-09.webp'); }
+  &.bg-10 { background-image: url('/images/bg-10.webp'); }
+  &.bg-11 { background-image: url('/images/bg-11.webp'); }
+  &.bg-12 { background-image: url('/images/bg-12.webp'); }
+  @apply bg-no-repeat bg-cover bg-center bg-fixed min-h-screen flex flex-col justify-center;
+
+}
+
