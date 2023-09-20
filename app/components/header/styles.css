@@ -1,5 +1,5 @@
 header {
-  @apply flex justify-between pt-8 pb-6;
+  @apply flex items-center justify-between pt-8 pb-6 lg:w-11/12 lg:mx-auto;
   a {
     @apply block w-2/5 md:w-80;
     img {
